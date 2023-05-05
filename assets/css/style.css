@@ -194,7 +194,11 @@ nav {
     background-size: cover;
 
 }
-.box-pepe{
+.box-pepe {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.box-pepe h1{
     font-family: Poppins;
 font-size: 75px;
 font-weight: 700;
