@@ -301,8 +301,15 @@ nav {
   color: #ffffff;
 }
 .hero-logo {
-    display: block;
-  height: 545px;
+    height: 454px;
+    margin-top: 70px;
+}
+.hero-logo-gif{
+    position: absolute;
+    top: 37px;
+    width: 490px;
+    left: 0;
+    z-index: -2;
 }
 .main-img-1 {
   height: 200px;
