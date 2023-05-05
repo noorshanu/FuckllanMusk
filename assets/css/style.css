@@ -144,10 +144,18 @@ nav {
   transform: rotate(143.43deg);
 }
 .divder-2 {
+    display: block;
   position: absolute;
   top: -33px;
   width: 102%;
 }
+
+.divder-3 {
+    display: none;
+    position: absolute;
+    top: -33px;
+    width: 102%;
+  }
 .hero-main p {
   font-family: Mabry Pro;
   font-style: normal;
@@ -289,6 +297,7 @@ nav {
   color: #ffffff;
 }
 .hero-logo {
+    display: block;
   height: 545px;
 }
 .main-img-1 {
@@ -417,13 +426,47 @@ footer {
 .line-foot{
     display: none;
 }
+
+.hero-logo-mob{
+    display: none;
+   
+  }
 /*mob responsive*/
 @media (max-width: 768px) {
+    .divder-1{
+        display: none;
+    }
+    .divder-3 {
+        display: block;
+        position: absolute;
+        top: -83px;
+        width: 102%;
+      }
+
+      .divder-2{
+        display: none;
+      }
+    .moon {
+        top: 6%;
+        z-index: -2;
+    }
     .line-foot{
         display: block;
         text-align: center;
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .moon-blur {
+        z-index: -1;
+        top: -1%;
+        position: absolute;
+        height: 193px;
+        width: 104px;
+        background: #6720fd;
+        filter: blur(136px);
+        border-radius: 262px;
+        transform: rotate(143.43deg);
     }
   .foot-bg {
     display: none;
@@ -528,7 +571,15 @@ footer {
     height: 132px;
   }
   .hero-logo {
+    display: none;
     height: 348px;
+  }
+  .hero-logo-mob{
+    display: block;
+    height: 348px;
+    margin-left: -58px;
+    margin-bottom: 32px;
+    margin-top: -58px;
   }
   .about-img {
     margin-top: 11%;
