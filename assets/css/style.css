@@ -57,23 +57,20 @@ nav {
   line-height: 26px;
   letter-spacing: 0.095em;
   text-align: center;
-border: 1px solid transparent;
+  border: 1px solid transparent;
   background: #ffffff;
   border-radius: 23px;
-cursor: pointer;
+  cursor: pointer;
   color: #000000;
   padding: 8px 24px 8px 24px;
 }
 
 .btn-nav-1:hover {
-    
-  
-    background: #ffffff00;
-    border: 1.5px solid grey;
+  background: #ffffff00;
+  border: 1.5px solid grey;
   cursor: pointer;
-    color: #ffffff;
-   
-  }
+  color: #ffffff;
+}
 .mt-10 {
   margin-top: 5%;
 }
@@ -110,12 +107,47 @@ cursor: pointer;
   font-weight: 600;
   font-size: 48px;
   line-height: 70px;
-
+  margin-top: 20%;
   padding-bottom: 2%;
 
   color: #ffffff;
 }
+.fs-36px {
+  font-size: 36px;
+}
+.hero-box-sub .social-icons {
+  margin-top: 17px;
+}
 
+.divder-1 {
+  height: 52px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.13);
+  transform: rotate(2.9deg);
+}
+.divder-box {
+  margin-top: 120px;
+}
+.moon {
+  top: 31%;
+  z-index: -2;
+}
+.moon-blur {
+  z-index: -1;
+  top: 35%;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: #6720fd;
+  filter: blur(136px);
+  border-radius: 262px;
+  transform: rotate(143.43deg);
+}
+.divder-2 {
+  position: absolute;
+  top: -33px;
+  width: 102%;
+}
 .hero-main p {
   font-family: Mabry Pro;
   font-style: normal;
@@ -224,6 +256,16 @@ cursor: pointer;
 
 .token-img {
   margin-top: 5%;
+}
+.moon-blur-2 {
+  top: 35%;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: #6720fd;
+  filter: blur(136px);
+  border-radius: 262px;
+  transform: rotate(143.43deg);
 }
 
 .about-p {
@@ -357,8 +399,100 @@ footer {
 .navbar-toggler {
   background: #ffffff;
 }
+
+.nav-mob {
+  display: none;
+}
+
+.hero-box-sub {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 40px;
+}
+.foot-bg-mob {
+  display: none;
+}
+
+.line-foot{
+    display: none;
+}
 /*mob responsive*/
 @media (max-width: 768px) {
+    .line-foot{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  .foot-bg {
+    display: none;
+  }
+  .foot-bg-mob {
+    display: block;
+  }
+
+  .token-img img {
+    width: 100%;
+  }
+  .token {
+    padding-top: 3%;
+    padding-bottom: 50%;
+  }
+  .contant {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    top: 80px;
+    max-width: 1104px;
+    /* margin: auto; */
+    left: 20px;
+    padding: 4%;
+  }
+  .header h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .header p {
+    font-family: Mabry Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 4%;
+  }
+
+  .info-box {
+    margin-top: 60px;
+    margin-bottom: 55px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 2rem;
+    padding: 4%;
+    border: 1.5px solid #59576a;
+    border-radius: 32px;
+  }
+  .box-pepe h1 {
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 4%;
+  }
+  .nav-mob {
+    display: block;
+  }
+  .nav-desk {
+    display: none !important;
+  }
   .navbar-nav {
     color: #fff !important;
     gap: 0.5rem;
@@ -374,6 +508,21 @@ footer {
   }
   .hero-main {
     padding-top: 13%;
+  }
+
+  .hero-main h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 1%;
+    padding-bottom: 2%;
+  }
+
+  .hero-main p {
+    font-family: Mabry Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
   }
   .main-img-1 {
     height: 132px;
@@ -391,4 +540,41 @@ footer {
   .about-sub-img {
     height: 290px;
   }
+
+  .footer-main .footer-p {
+  
+    text-align: center;
+  font-size: 12px;
+    color: rgba(255, 255, 255, 0.575);
+  }
+  
+  .footer-main .footer-p-2 {
+    margin-top: 20px;
+  font-size: 12px;
+  
+    text-align: center;
+  
+ 
+  }
+
+  .elo-love {
+    position: absolute;
+    top: -146px;
+    left: 28px;
+}
+
+.mob-tweet-img{
+    height: 49px;
+}
+.fs-78px{
+    font-size: 49px;
+}
+
+.mob-res-t{
+    justify-content: center;
+}
+
+.foot-logo{
+    text-align: center;
+}
 }
