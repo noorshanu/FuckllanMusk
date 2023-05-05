@@ -580,12 +580,13 @@ footer {
     grid-template-columns: repeat(1, auto);
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
-    top: 80px;
+    gap: 5px;
+    top: 59px;
     max-width: 1104px;
-    /* margin: auto; */
-    left: 1px;
+    margin: auto;
+    left: -12px;
     padding: 10%;
+    right: 0;
   }
   .header h1 {
     font-family: "Poppins";
@@ -652,6 +653,7 @@ footer {
     line-height: 40px;
     margin-top: 1%;
     padding-bottom: 2%;
+    text-align: center;
   }
 
   .hero-main p {
@@ -660,6 +662,7 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
+    text-align: center;
   }
   .main-img-1 {
     height: 132px;
@@ -731,5 +734,6 @@ footer {
     gap: 3rem;
     align-items: center;
     margin-top: 12px;
+    justify-content: center;
   }
 }
