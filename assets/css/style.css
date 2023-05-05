@@ -674,15 +674,15 @@ footer {
   .hero-logo-mob {
     display: block;
     height: 255px;
-    margin-left: 78px;
+    margin-left: 84px;
     margin-bottom: 35px;
     margin-top: -4px;
   }
   .hero-logo-gif {
     position: absolute;
-    top: -498px;
-    width: 316px;
-    left: 0;
+    top: -466px;
+    width: 288px;
+    left: 32px;
     z-index: -2;
   }
   .about-img {
