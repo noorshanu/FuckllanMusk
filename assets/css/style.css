@@ -522,7 +522,7 @@ footer {
     top: 80px;
     max-width: 1104px;
     /* margin: auto; */
-    left: 20px;
+    left: 1px;
     padding: 4%;
   }
   .header h1 {
@@ -543,7 +543,7 @@ footer {
 
   .info-box {
     margin-top: 60px;
-    margin-bottom: 55px;
+    margin-bottom: 18px;
     display: grid;
     grid-template-columns: repeat(1, auto);
     gap: 2rem;
@@ -558,7 +558,7 @@ footer {
     line-height: 40px;
     letter-spacing: 0em;
     text-align: center;
-    padding: 4%;
+    padding: 0px 9px 0px 8px;
   }
   .nav-mob {
     display: block;
@@ -580,7 +580,7 @@ footer {
     width: 100%;
   }
   .hero-main {
-    padding-top: 13%;
+    padding-top: 2.5%;
   }
 
   .hero-main h1 {
@@ -664,5 +664,11 @@ footer {
 
 .foot-logo{
     text-align: center;
+}
+.hero-box-sub {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 12px;
 }
 }
