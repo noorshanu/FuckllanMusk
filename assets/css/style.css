@@ -264,6 +264,10 @@ nav {
 
 .token-img {
   margin-top: 5%;
+  display: block;
+}
+.token-img-mob{
+    display: none;
 }
 .moon-blur-2 {
   top: 35%;
@@ -431,6 +435,14 @@ footer {
     display: none;
    
   }
+  .pee-elon {
+    position: absolute;
+    top: 41px;
+    width: 42% !important;
+    /* height: 93%; */
+    left: 31%;
+    right: 50%;
+}
 /*mob responsive*/
 @media (max-width: 768px) {
     .divder-1{
@@ -474,7 +486,12 @@ footer {
   .foot-bg-mob {
     display: block;
   }
-
+.token-img{
+    display: none;
+}
+.token-img-mob{
+    display: block;
+}
   .token-img img {
     width: 100%;
   }
