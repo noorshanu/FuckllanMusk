@@ -484,6 +484,9 @@ footer {
 }
 /*mob responsive*/
 @media (max-width: 768px) {
+    .ccc{
+        display: none;
+    }
   .frame-1 {
     position: absolute;
     left: 0px;
