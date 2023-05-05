@@ -144,18 +144,18 @@ nav {
   transform: rotate(143.43deg);
 }
 .divder-2 {
-    display: block;
+  display: block;
   position: absolute;
   top: -33px;
   width: 102%;
 }
 
 .divder-3 {
-    display: none;
-    position: absolute;
-    top: -33px;
-    width: 102%;
-  }
+  display: none;
+  position: absolute;
+  top: -33px;
+  width: 102%;
+}
 .hero-main p {
   font-family: Mabry Pro;
   font-style: normal;
@@ -266,8 +266,8 @@ nav {
   margin-top: 5%;
   display: block;
 }
-.token-img-mob{
-    display: none;
+.token-img-mob {
+  display: none;
 }
 .moon-blur-2 {
   top: 35%;
@@ -301,15 +301,15 @@ nav {
   color: #ffffff;
 }
 .hero-logo {
-    height: 454px;
-    margin-top: 70px;
+  height: 454px;
+  margin-top: 70px;
 }
-.hero-logo-gif{
-    position: absolute;
-    top: 37px;
-    width: 490px;
-    left: 0;
-    z-index: -2;
+.hero-logo-gif {
+  position: absolute;
+  top: 37px;
+  width: 490px;
+  left: 0;
+  z-index: -2;
 }
 .main-img-1 {
   height: 200px;
@@ -434,77 +434,97 @@ footer {
   display: none;
 }
 
-.line-foot{
-    display: none;
+.line-foot {
+  display: none;
 }
 
-.hero-logo-mob{
-    display: none;
-   
-  }
-  .pee-elon {
+.hero-logo-mob {
+  display: none;
+}
+.pee-elon {
+  position: absolute;
+  top: 41px;
+  width: 42% !important;
+  /* height: 93%; */
+  left: 31%;
+  right: 50%;
+}
+
+.frame-1{
     position: absolute;
-    top: 41px;
-    width: 42% !important;
-    /* height: 93%; */
-    left: 31%;
-    right: 50%;
+    left: 0px;
+    top: 170px;
+}
+.frame-blur{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    background: linear-gradient(6.19deg, rgba(0, 232, 109, 0.33) 23.61%, rgba(221, 87, 211, 0.33) 57.21%);
+filter: blur(136px);
+border-radius: 262px;
+transform: rotate(143.43deg);
+width: 300px;
+height: 300px;
+}
+
+.frame-2{
+    position: absolute;
+    right: 0px;
+    bottom: 125px;
 }
 /*mob responsive*/
 @media (max-width: 768px) {
+  .pee-elon {
+    top: -1px;
+    width: 46% !important;
+  }
+  .divder-1 {
+    display: none;
+  }
+  .divder-3 {
+    display: block;
+    position: absolute;
+    top: -83px;
+    width: 102%;
+  }
 
-    .pee-elon {
-       
-        top: -1px;
-        width: 46% !important;
-    }
-    .divder-1{
-        display: none;
-    }
-    .divder-3 {
-        display: block;
-        position: absolute;
-        top: -83px;
-        width: 102%;
-      }
+  .divder-2 {
+    display: none;
+  }
+  .moon {
+    top: 6%;
+    z-index: -2;
+  }
+  .line-foot {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-      .divder-2{
-        display: none;
-      }
-    .moon {
-        top: 6%;
-        z-index: -2;
-    }
-    .line-foot{
-        display: block;
-        text-align: center;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .moon-blur {
-        z-index: -1;
-        top: -1%;
-        position: absolute;
-        height: 193px;
-        width: 104px;
-        background: #6720fd;
-        filter: blur(136px);
-        border-radius: 262px;
-        transform: rotate(143.43deg);
-    }
+  .moon-blur {
+    z-index: -1;
+    top: -1%;
+    position: absolute;
+    height: 193px;
+    width: 104px;
+    background: #6720fd;
+    filter: blur(136px);
+    border-radius: 262px;
+    transform: rotate(143.43deg);
+  }
   .foot-bg {
     display: none;
   }
   .foot-bg-mob {
     display: block;
   }
-.token-img{
+  .token-img {
     display: none;
-}
-.token-img-mob{
+  }
+  .token-img-mob {
     display: block;
-}
+  }
   .token-img img {
     width: 100%;
   }
@@ -612,14 +632,14 @@ footer {
     margin-left: 78px;
     margin-bottom: 35px;
     margin-top: -4px;
-}
-.hero-logo-gif {
+  }
+  .hero-logo-gif {
     position: absolute;
     top: -498px;
     width: 316px;
     left: 0;
     z-index: -2;
-}
+  }
   .about-img {
     margin-top: 11%;
   }
@@ -632,45 +652,42 @@ footer {
   }
 
   .footer-main .footer-p {
-  
     text-align: center;
-  font-size: 12px;
+    font-size: 12px;
     color: rgba(255, 255, 255, 0.575);
   }
-  
+
   .footer-main .footer-p-2 {
     margin-top: 20px;
-  font-size: 12px;
-  
+    font-size: 12px;
+
     text-align: center;
-  
- 
   }
 
   .elo-love {
     position: absolute;
     top: -146px;
     left: 28px;
-}
+  }
 
-.mob-tweet-img{
+  .mob-tweet-img {
     height: 49px;
-}
-.fs-78px{
+  }
+  .fs-78px {
     font-size: 49px;
-}
+  }
 
-.mob-res-t{
+  .mob-res-t {
     justify-content: center;
-}
+  }
 
-.foot-logo{
+  .foot-logo {
     text-align: center;
-}
-.hero-box-sub {
+  }
+  .hero-box-sub {
     display: flex;
     gap: 3rem;
     align-items: center;
     margin-top: 12px;
-}
+  }
 }
