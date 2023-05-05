@@ -450,30 +450,69 @@ footer {
   right: 50%;
 }
 
-.frame-1{
-    position: absolute;
-    left: 0px;
-    top: 170px;
+.frame-1 {
+  position: absolute;
+  left: 0px;
+  top: 170px;
 }
-.frame-blur{
-    position: absolute;
-    top: 90px;
-    left: 0px;
-    background: linear-gradient(6.19deg, rgba(0, 232, 109, 0.33) 23.61%, rgba(221, 87, 211, 0.33) 57.21%);
-filter: blur(136px);
-border-radius: 262px;
-transform: rotate(143.43deg);
-width: 300px;
-height: 300px;
+.frame-blur {
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  background: linear-gradient(
+    6.19deg,
+    rgba(0, 232, 109, 0.33) 23.61%,
+    rgba(221, 87, 211, 0.33) 57.21%
+  );
+  filter: blur(136px);
+  border-radius: 262px;
+  transform: rotate(143.43deg);
+  width: 300px;
+  height: 300px;
 }
 
-.frame-2{
+.frame-2 {
+  position: absolute;
+  right: 0px;
+  bottom: 125px;
+}
+
+.ccc{
     position: absolute;
-    right: 0px;
-    bottom: 125px;
+    bottom: 1px;
+    right: 10px;
 }
 /*mob responsive*/
 @media (max-width: 768px) {
+  .frame-1 {
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    height: 68px;
+  }
+  .frame-blur {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    background: linear-gradient(
+      6.19deg,
+      rgba(0, 232, 109, 0.33) 23.61%,
+      rgba(221, 87, 211, 0.33) 57.21%
+    );
+    filter: blur(136px);
+    border-radius: 262px;
+    transform: rotate(143.43deg);
+    width: 100px;
+    height: 100px;
+  }
+
+  .frame-2 {
+    position: absolute;
+    right: 0px;
+    bottom: 125px;
+    height: 68px;
+  }
+
   .pee-elon {
     top: -1px;
     width: 46% !important;
