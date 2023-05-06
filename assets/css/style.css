@@ -566,6 +566,9 @@ footer {
   }
   .token-img-mob {
     display: block;
+    
+    margin-top: 65px;
+
   }
   .token-img img {
     width: 100%;
