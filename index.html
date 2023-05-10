@@ -41,24 +41,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav  mb-2 ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active" aria-current="page" href="/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TOKENOMICS</a>
+              <a class="nav-link" href="#token">TOKENOMICS</a>
             </li>
           </ul>
           <div class="nav-mob">
 
               <div class="d-flex gap-4 " role="search">
-                  <a class="btn-nav-1">BUY NOW</a>
+                  <a class="btn-nav-1" href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0xeBfE188F6771415110c391fd0dD12E215fc93D2E" target="_blank">BUY NOW</a>
           </div>
           </div>
         </div>
         <div class="d-flex gap-4 nav-desk" role="search">
-            <a class="btn-nav-1">BUY NOW</a>
+            <a class="btn-nav-1" href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0xeBfE188F6771415110c391fd0dD12E215fc93D2E" target="_blank">BUY NOW</a>
           </div>
       </div>
     </nav>
@@ -87,15 +87,20 @@
 
             <div class="hero-box-sub">
                 <div class="d-flex gap-3">
-                    <a class="btn-nav-1">BUY </a>
-                    <a class="btn-nav-1">CHART</a>
+                    <a class="btn-nav-1" href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0xeBfE188F6771415110c391fd0dD12E215fc93D2E" target="_blank">BUY </a>
+                    <a class="btn-nav-1" href="https://www.dextools.io/app/en/ether/pair-explorer/0xcbb24c0b3551f9ef7fd89e12a1fad2f9ae4e59cc" target="_blank">CHART</a>
                 </div>
                 <div class="social-icons d-flex gap-4">
-                    <p><i class="fa-brands fa-telegram  fs-36px"></i></p>
+                    <a href="https://t.me/fokelon" target="_blank"><i class="fa-brands fa-telegram  fs-36px"></i></a>
                     <a href="https://twitter.com/fokeloneth"><img src="./assets/img/twitter.png" alt=""></i></a>
                   </div>
             </div>
+          <div>
+            <input type="text" id="textToCopy" value="0xeBfE188F6771415110c391fd0dD12E215fc93D2E" readonly>
+            <button onclick="copyText()" id="cp-btn" class="btn-nav-1">COPY</button>
            
+          </div>
+          
           </div>
           <div class="col-md-6 text-center">
             <div class="position-relative">
@@ -116,7 +121,7 @@
       </div>
     </section>
     <div alt="" class="drop-1"></div>
-    <section class="about">
+    <section class="about" id="about">
       <div class="">
         <div class="header">
           <h1>About Us</h1>
@@ -134,25 +139,37 @@
 
       <div class="container">
         <div class="info-box">
+          <a href="https://etherscan.io/token/0xebfe188f6771415110c391fd0dd12e215fc93d2e" target="_blank">
           <div class="d-flex align-items-center sub-info-box">
-            <img src="./assets/img/bsc.svg" alt="" class="child-img" />
-            <h1>Contract</h1>
-          </div>
+           
 
-          <div class="d-flex align-items-center sub-info-box">
-            <img src="./assets/img/lock.svg" alt="" class="child-img" />
-            <h1>Locked Liquidity</h1>
+              <img src="./assets/img/bsc.svg" alt="" class="child-img" />
+              <h1>Contract</h1>
+          
+          
           </div>
+        </a>
+<a href="https://etherscan.io/tx/0x9e9ff37f3b04fbabba62e6b3e8b4b31371e95e6ffd4f5c816c68b6e5477db6db">
+  <div class="d-flex align-items-center sub-info-box">
+    <img src="./assets/img/lock.svg" alt="" class="child-img" />
+    <h1>Locked Liquidity</h1>
+  </div>
+</a>
+         
 
           <div class="d-flex align-items-center sub-info-box">
             <img src="./assets/img/lock3.svg" alt="" class="child-img" />
             <h1>Contract Renounced</h1>
           </div>
 
+          <a href="https://t.me/fokelonbot" target="_blank">
           <div class="d-flex align-items-center sub-info-box">
-            <img src="./assets/img/lock2.svg" alt="" class="child-img" />
-            <h1>Airdrop</h1>
-          </div>
+      
+              <img src="./assets/img/lock2.svg" alt="" class="child-img" />
+              <h1>Airdrop</h1>
+           
+       
+          </div> </a>
         </div>
       </div>
     </section>
@@ -181,7 +198,7 @@
         <img src="./assets/img/token-frame-2.png" alt="" class="frame-2">
 
 
-      <div class="container">
+      <div class="container" id="token">
         <div class="header">
           <h1>Fokenomics</h1>
         </div>
@@ -217,8 +234,8 @@
                     is completely useless and for entertainment purposes only</h2>
                 </div>
                 <div class="d-flex gap-4 mob-res-t">
-                  <a href="#"><i class="fa-brands fa-telegram  fs-78px"></i></a>
-                  <a href="https://twitter.com/fokeloneth"><img src="./assets/img/twitter.svg" alt="" class="mob-tweet-img"></a>
+                  <a href="https://t.me/fokelon"><i class="fa-brands fa-telegram  fs-78px"></i></a>
+                  <a href="https://twitter.com/fokeloneth" target="_blank"><img src="./assets/img/twitter.svg" alt="" class="mob-tweet-img"></a>
                 </div>
               </div>
           </div>
@@ -253,5 +270,34 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function copyText() {
+        /* Get the text field */
+        var textToCopy = document.getElementById("textToCopy");
+        var cpBtn =document.getElementById('cp-btn');
+  
+        /* Select the text field */
+        textToCopy.select();
+        textToCopy.setSelectionRange(0, 99999); /* For mobile devices */
+  
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+  
+        /* Alert the copied text */
+        // alert("Copied: " + textToCopy.value);
+        cpBtn.innerText='COPIED!'
+         /* Change back to "Copy" after 2 seconds */
+  setTimeout(function() {
+    cpBtn.innerText = 'Copy';
+  }, 1000);
+        
+      }
+    </script>
   </body>
+  </html>
+
+  
+  
+  
+  
 </html>
